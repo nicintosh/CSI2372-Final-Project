@@ -1,0 +1,47 @@
+# depslib dependency file v1.0
+1417377283 source:c:\users\julien\documents\new folder\project\main.cpp
+	<iostream>
+	"gameboard.h"
+	"tilefactory.h"
+	"taketurn.h"
+	<limits>
+
+1417377389 c:\users\julien\documents\new folder\project\gameboard.h
+	<iostream>
+	<vector>
+	<string>
+	<fstream>
+	"tile.h"
+
+1417321281 c:\users\julien\documents\new folder\project\tile.h
+	<stdio.h>
+	<iostream>
+	"player.h"
+	<typeinfo>
+	<cstdlib>
+	<string>
+	<vector>
+
+1417321639 c:\users\julien\documents\new folder\project\player.h
+	<string>
+
+1417334271 c:\users\julien\documents\new folder\project\tilefactory.h
+	<iostream>
+	<math.h>
+	<vector>
+	<cstdlib>
+	"tile.h"
+
+1417324997 c:\users\julien\documents\new folder\project\taketurn.h
+
+1417331627 source:c:\users\julien\documents\new folder\project\player.cpp
+	<iostream>
+	<string>
+	"player.h"
+
+1417367160 source:c:\users\julien\documents\new folder\project\tile.cpp
+	"tile.h"
+
+1417334271 source:c:\users\julien\documents\new folder\project\tilefactory.cpp
+	"tilefactory.h"
+

@@ -7,7 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		283FB6D61A2BF484000FC993 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 283FB6D51A2BF484000FC993 /* main.cpp */; };
+		283FB6EB1A2BF4B4000FC993 /* gameboard.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 283FB6DC1A2BF4B4000FC993 /* gameboard.cpp */; };
+		283FB6EC1A2BF4B4000FC993 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 283FB6DE1A2BF4B4000FC993 /* main.cpp */; };
+		283FB6ED1A2BF4B4000FC993 /* player.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 283FB6DF1A2BF4B4000FC993 /* player.cpp */; };
+		283FB6EE1A2BF4B4000FC993 /* tile.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 283FB6E71A2BF4B4000FC993 /* tile.cpp */; };
+		283FB6EF1A2BF4B4000FC993 /* tilefactory.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 283FB6E91A2BF4B4000FC993 /* tilefactory.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,7 +28,21 @@
 
 /* Begin PBXFileReference section */
 		283FB6D21A2BF484000FC993 /* CSI2372-Final-Project */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "CSI2372-Final-Project"; sourceTree = BUILT_PRODUCTS_DIR; };
-		283FB6D51A2BF484000FC993 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		283FB6DC1A2BF4B4000FC993 /* gameboard.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = gameboard.cpp; sourceTree = "<group>"; };
+		283FB6DD1A2BF4B4000FC993 /* gameboard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = gameboard.h; sourceTree = "<group>"; };
+		283FB6DE1A2BF4B4000FC993 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = main.cpp; path = ../main.cpp; sourceTree = "<group>"; };
+		283FB6DF1A2BF4B4000FC993 /* player.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = player.cpp; sourceTree = "<group>"; };
+		283FB6E01A2BF4B4000FC993 /* player.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = player.h; sourceTree = "<group>"; };
+		283FB6E11A2BF4B4000FC993 /* project.cbp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file; path = project.cbp; sourceTree = "<group>"; };
+		283FB6E21A2BF4B4000FC993 /* project.depend */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file; path = project.depend; sourceTree = "<group>"; };
+		283FB6E31A2BF4B4000FC993 /* project.layout */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file; path = project.layout; sourceTree = "<group>"; };
+		283FB6E41A2BF4B4000FC993 /* save.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = save.txt; sourceTree = "<group>"; };
+		283FB6E51A2BF4B4000FC993 /* taketurn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = taketurn.h; sourceTree = "<group>"; };
+		283FB6E61A2BF4B4000FC993 /* test.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = test.txt; sourceTree = "<group>"; };
+		283FB6E71A2BF4B4000FC993 /* tile.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = tile.cpp; sourceTree = "<group>"; };
+		283FB6E81A2BF4B4000FC993 /* tile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tile.h; sourceTree = "<group>"; };
+		283FB6E91A2BF4B4000FC993 /* tilefactory.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = tilefactory.cpp; sourceTree = "<group>"; };
+		283FB6EA1A2BF4B4000FC993 /* tilefactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tilefactory.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +75,21 @@
 		283FB6D41A2BF484000FC993 /* CSI2372-Final-Project */ = {
 			isa = PBXGroup;
 			children = (
-				283FB6D51A2BF484000FC993 /* main.cpp */,
+				283FB6DC1A2BF4B4000FC993 /* gameboard.cpp */,
+				283FB6DD1A2BF4B4000FC993 /* gameboard.h */,
+				283FB6DE1A2BF4B4000FC993 /* main.cpp */,
+				283FB6DF1A2BF4B4000FC993 /* player.cpp */,
+				283FB6E01A2BF4B4000FC993 /* player.h */,
+				283FB6E11A2BF4B4000FC993 /* project.cbp */,
+				283FB6E21A2BF4B4000FC993 /* project.depend */,
+				283FB6E31A2BF4B4000FC993 /* project.layout */,
+				283FB6E41A2BF4B4000FC993 /* save.txt */,
+				283FB6E51A2BF4B4000FC993 /* taketurn.h */,
+				283FB6E61A2BF4B4000FC993 /* test.txt */,
+				283FB6E71A2BF4B4000FC993 /* tile.cpp */,
+				283FB6E81A2BF4B4000FC993 /* tile.h */,
+				283FB6E91A2BF4B4000FC993 /* tilefactory.cpp */,
+				283FB6EA1A2BF4B4000FC993 /* tilefactory.h */,
 			);
 			path = "CSI2372-Final-Project";
 			sourceTree = "<group>";
@@ -118,7 +150,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				283FB6D61A2BF484000FC993 /* main.cpp in Sources */,
+				283FB6EF1A2BF4B4000FC993 /* tilefactory.cpp in Sources */,
+				283FB6EC1A2BF4B4000FC993 /* main.cpp in Sources */,
+				283FB6EB1A2BF4B4000FC993 /* gameboard.cpp in Sources */,
+				283FB6ED1A2BF4B4000FC993 /* player.cpp in Sources */,
+				283FB6EE1A2BF4B4000FC993 /* tile.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -232,6 +268,7 @@
 				283FB6DB1A2BF484000FC993 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
